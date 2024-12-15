@@ -14,57 +14,57 @@ int main()
 	FirstB *pFirstB = &sysu;
 	FirstC *pFirstC = &sysu;
 	StudentMIS *pStudentMIS = &sysu;
-	cout<<endl<<setw(20)<<" "<<left<<setw(30)<<"ª∂”≠Ω¯»Î—ß…˙–≈œ¢π‹¿ÌœµÕ≥£°"<<endl<<endl;
-	cout<<endl<<endl<<setw(18)<<" "<<left<<setw(20)<<"1.”√ªß—°‘Ò"<<setw(30)<<"2.ÕÀ≥ˆœµÕ≥"<<endl;
-	cout<<endl<<setw(25)<<" "<<"«Î—°‘Ò£∫";
+	cout<<endl<<setw(20)<<" "<<left<<setw(30)<<"Ê¨¢ËøéËøõÂÖ•Â≠¶Áîü‰ø°ÊÅØÁÆ°ÁêÜÁ≥ªÁªüÔºÅ"<<endl<<endl;
+	cout<<endl<<endl<<setw(18)<<" "<<left<<setw(20)<<"1.Áî®Êà∑ÈÄâÊã©"<<setw(30)<<"2.ÈÄÄÂá∫Á≥ªÁªü"<<endl;
+	cout<<endl<<setw(25)<<" "<<"ËØ∑ÈÄâÊã©Ôºö";
 	string init;
 	while(cin>>init)
 	{
-		// ‰»Î“Ï≥£¥¶¿Ì
+		//ËæìÂÖ•ÂºÇÂ∏∏Â§ÑÁêÜ
 		if(init != "1" && init != "2")
 		{
 			system ("cls");
-			cout<<endl<<endl<<setw(18)<<" "<<left<<setw(20)<<"1.”√ªß—°‘Ò"<<setw(30)<<"2.ÕÀ≥ˆœµÕ≥"<<endl;
-			cout<<endl<<setw(20)<<" "<<" ‰»Î¥ÌŒÛ¿≤£°÷ÿ–¬—°‘Ò∞…£∫";
+			cout<<endl<<endl<<setw(18)<<" "<<left<<setw(20)<<"1.Áî®Êà∑ÈÄâÊã©"<<setw(30)<<"2.ÈÄÄÂá∫Á≥ªÁªü"<<endl;
+			cout<<endl<<setw(20)<<" "<<"ËæìÂÖ•ÈîôËØØÂï¶ÔºÅÈáçÊñ∞ÈÄâÊã©ÂêßÔºö";
 			continue;
 		}
 		if(init == "2") break;
 		system ("cls");
-	    cout<<endl<<endl<<setw(22)<<" "<<left<<setw(30)<<"”√ªßµ«¬º’À∫≈—°‘Ò÷–..."<<endl;
-	    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.’–…˙∞Ïπ§◊˜»À‘±"<<"2.œµΩÃŒÒ‘±"<<endl;
-	    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.—ßŒª∞Ïπ§◊˜»À‘±"<<"4.∑µªÿ…œ“ª≤„"<<endl;
-	    cout<<endl<<setw(20)<<" "<<"«Î—°‘Òµ«¬º’À∫≈£∫";
+	    cout<<endl<<endl<<setw(22)<<" "<<left<<setw(30)<<"Áî®Êà∑ÁôªÂΩïË¥¶Âè∑ÈÄâÊã©‰∏≠..."<<endl;
+	    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.ÊãõÁîüÂäûÂ∑•‰Ωú‰∫∫Âëò"<<"2.Á≥ªÊïôÂä°Âëò"<<endl;
+	    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.Â≠¶‰ΩçÂäûÂ∑•‰Ωú‰∫∫Âëò"<<"4.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+	    cout<<endl<<setw(20)<<" "<<"ËØ∑ÈÄâÊã©ÁôªÂΩïË¥¶Âè∑Ôºö";
 	    string user;
 	    while(cin>>user)
 	    {
-			// ‰»Î“Ï≥£¥¶¿Ì
+			//ËæìÂÖ•ÂºÇÂ∏∏Â§ÑÁêÜ
 		    if(user != "1" && user != "2" && user != "3" && user != "4")  
 			{
 				system ("cls");
-				cout<<endl<<endl<<setw(22)<<" "<<left<<setw(30)<<"”√ªßµ«¬º’À∫≈—°‘Ò÷–..."<<endl;
-	            cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.’–…˙∞Ïπ§◊˜»À‘±"<<"2.œµΩÃŒÒ‘±"<<endl;
-	            cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.—ßŒª∞Ïπ§◊˜»À‘±"<<"4.∑µªÿ…œ“ª≤„"<<endl;
-				cout<<endl<<setw(20)<<" "<<" ‰»Î¥ÌŒÛ¿≤£°÷ÿ–¬—°‘Ò∞…£∫";
+				cout<<endl<<endl<<setw(22)<<" "<<left<<setw(30)<<"Áî®Êà∑ÁôªÂΩïË¥¶Âè∑ÈÄâÊã©‰∏≠..."<<endl;
+	            cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.ÊãõÁîüÂäûÂ∑•‰Ωú‰∫∫Âëò"<<"2.Á≥ªÊïôÂä°Âëò"<<endl;
+	            cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.Â≠¶‰ΩçÂäûÂ∑•‰Ωú‰∫∫Âëò"<<"4.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+				cout<<endl<<setw(20)<<" "<<"ËæìÂÖ•ÈîôËØØÂï¶ÔºÅÈáçÊñ∞ÈÄâÊã©ÂêßÔºö";
 				continue;
 			}
 			if(user == "1")
 			{
 				system ("cls");
-				cout<<endl<<endl<<setw(25)<<" "<<left<<setw(30)<<"1.Ω®¡¢—ß…˙–≈œ¢π‹¿ÌœµÕ≥"<<endl;
-	            cout<<endl<<setw(25)<<" "<<left<<setw(30)<<"2.–ﬁ∏ƒ—ß…˙◊ ¡œ"<<endl;
-	            cout<<endl<<setw(25)<<" "<<left<<setw(30)<<"3.∑µªÿ…œ“ª≤„"<<endl;
-				cout<<endl<<setw(25)<<" "<<"«Î—°‘Ò£∫";
+				cout<<endl<<endl<<setw(25)<<" "<<left<<setw(30)<<"1.Âª∫Á´ãÂ≠¶Áîü‰ø°ÊÅØÁÆ°ÁêÜÁ≥ªÁªü"<<endl;
+	            cout<<endl<<setw(25)<<" "<<left<<setw(30)<<"2.‰øÆÊîπÂ≠¶ÁîüËµÑÊñô"<<endl;
+	            cout<<endl<<setw(25)<<" "<<left<<setw(30)<<"3.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+				cout<<endl<<setw(25)<<" "<<"ËØ∑ÈÄâÊã©Ôºö";
 				string choice;
 				while(cin>>choice)
 				{
-					// ‰»Î“Ï≥£¥¶¿Ì
+					//ËæìÂÖ•ÂºÇÂ∏∏Â§ÑÁêÜ
 					if(choice != "1" && choice != "2" && choice != "3")
 					{
 						system ("cls");
-						cout<<endl<<endl<<setw(25)<<" "<<left<<setw(30)<<"1.Ω®¡¢—ß…˙–≈œ¢π‹¿ÌœµÕ≥"<<endl;
-	                    cout<<endl<<setw(25)<<" "<<left<<setw(30)<<"2.–ﬁ∏ƒ—ß…˙◊ ¡œ"<<endl;
-	                    cout<<endl<<setw(25)<<" "<<left<<setw(30)<<"3.∑µªÿ…œ“ª≤„"<<endl;
-						cout<<endl<<setw(25)<<" "<<" ‰»Î¥ÌŒÛ¿≤£°÷ÿ–¬—°‘Ò∞…£∫";
+						cout<<endl<<endl<<setw(25)<<" "<<left<<setw(30)<<"1.Âª∫Á´ãÂ≠¶Áîü‰ø°ÊÅØÁÆ°ÁêÜÁ≥ªÁªü"<<endl;
+	                    cout<<endl<<setw(25)<<" "<<left<<setw(30)<<"2.‰øÆÊîπÂ≠¶ÁîüËµÑÊñô"<<endl;
+	                    cout<<endl<<setw(25)<<" "<<left<<setw(30)<<"3.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+						cout<<endl<<setw(25)<<" "<<"ËæìÂÖ•ÈîôËØØÂï¶ÔºÅÈáçÊñ∞ÈÄâÊã©ÂêßÔºö";
 						continue;
 					}
 					if(choice == "1")
@@ -77,46 +77,46 @@ int main()
 					}
 					else break;
 					system ("cls");
-					cout<<endl<<endl<<setw(25)<<" "<<left<<setw(30)<<"1.Ω®¡¢—ß…˙–≈œ¢π‹¿ÌœµÕ≥"<<endl;
-	                cout<<endl<<setw(25)<<" "<<left<<setw(30)<<"2.–ﬁ∏ƒ—ß…˙◊ ¡œ"<<endl;
-	                cout<<endl<<setw(25)<<" "<<left<<setw(30)<<"3.∑µªÿ…œ“ª≤„"<<endl;
-					cout<<endl<<setw(25)<<" "<<"«Î‘Ÿ¥Œ—°‘Ò£∫";
+					cout<<endl<<endl<<setw(25)<<" "<<left<<setw(30)<<"1.Âª∫Á´ãÂ≠¶Áîü‰ø°ÊÅØÁÆ°ÁêÜÁ≥ªÁªü"<<endl;
+	                cout<<endl<<setw(25)<<" "<<left<<setw(30)<<"2.‰øÆÊîπÂ≠¶ÁîüËµÑÊñô"<<endl;
+	                cout<<endl<<setw(25)<<" "<<left<<setw(30)<<"3.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+					cout<<endl<<setw(25)<<" "<<"ËØ∑ÂÜçÊ¨°ÈÄâÊã©Ôºö";
 				}
 			}
 			else if(user == "2")
 			{
 				system ("cls");
-				cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.AœµΩÃŒÒ‘±"<<"2.BœµΩÃŒÒ‘±"<<endl;
-	            cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.CœµΩÃŒÒ‘±"<<"4.∑µªÿ…œ“ª≤„"<<endl;
-				cout<<endl<<setw(25)<<" "<<"«Î—°‘Ò£∫";
+				cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.AÁ≥ªÊïôÂä°Âëò"<<"2.BÁ≥ªÊïôÂä°Âëò"<<endl;
+	            cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.CÁ≥ªÊïôÂä°Âëò"<<"4.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+				cout<<endl<<setw(25)<<" "<<"ËØ∑ÈÄâÊã©Ôºö";
 				string major;
 				while(cin>>major)
 				{
-					// ‰»Î“Ï≥£¥¶¿Ì
+					//ËæìÂÖ•ÂºÇÂ∏∏Â§ÑÁêÜ
 					if(major != "1" && major != "2" && major != "3" && major != "4")
 					{
 						system ("cls");
-						cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.AœµΩÃŒÒ‘±"<<"2.BœµΩÃŒÒ‘±"<<endl;
-	                    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.CœµΩÃŒÒ‘±"<<"4.∑µªÿ…œ“ª≤„"<<endl;
-						cout<<endl<<setw(20)<<" "<<" ‰»Î¥ÌŒÛ¿≤£°÷ÿ–¬—°‘Ò∞…£∫";
+						cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.AÁ≥ªÊïôÂä°Âëò"<<"2.BÁ≥ªÊïôÂä°Âëò"<<endl;
+	                    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.CÁ≥ªÊïôÂä°Âëò"<<"4.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+						cout<<endl<<setw(20)<<" "<<"ËæìÂÖ•ÈîôËØØÂï¶ÔºÅÈáçÊñ∞ÈÄâÊã©ÂêßÔºö";
 						continue;
 					}
 					if(major == "1")
 					{
 						system ("cls");
-						cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.¬º»Î÷˜–ﬁ—ß…˙≥…º®"<<"2.¬º»Î∏®–ﬁ—ß…˙≥…º®"<<endl;
-						cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.Õ≥º∆”≈–„—ß…˙"<<"4.Õ≥º∆÷˜–ﬁ≤πøº—ß…˙"<<endl;
-						cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.Õ≥º∆∏®–ﬁ≤πøº—ß…˙"<<"6.∑µªÿ…œ“ª≤„"<<endl;
-						cout<<endl<<setw(25)<<" "<<"«Î—°‘Ò£∫";
+						cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.ÂΩïÂÖ•‰∏ª‰øÆÂ≠¶ÁîüÊàêÁª©"<<"2.ÂΩïÂÖ•ËæÖ‰øÆÂ≠¶ÁîüÊàêÁª©"<<endl;
+						cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.ÁªüËÆ°‰ºòÁßÄÂ≠¶Áîü"<<"4.ÁªüËÆ°‰∏ª‰øÆË°•ËÄÉÂ≠¶Áîü"<<endl;
+						cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.ÁªüËÆ°ËæÖ‰øÆË°•ËÄÉÂ≠¶Áîü"<<"6.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+						cout<<endl<<setw(25)<<" "<<"ËØ∑ÈÄâÊã©Ôºö";
 						while(cin>>major)
 						{
 							if(major!="1"&&major!="2"&&major!="3"&&major!="4"&&major!="5"&&major!="6")
 							{
 								system ("cls");
-								cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.¬º»Î÷˜–ﬁ—ß…˙≥…º®"<<"2.¬º»Î∏®–ﬁ—ß…˙≥…º®"<<endl;
-						        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.Õ≥º∆”≈–„—ß…˙"<<"4.Õ≥º∆÷˜–ﬁ≤πøº—ß…˙"<<endl;
-						        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.Õ≥º∆∏®–ﬁ≤πøº—ß…˙"<<"6.∑µªÿ…œ“ª≤„"<<endl;
-								cout<<endl<<setw(20)<<" "<<" ‰»Î¥ÌŒÛ¿≤£°÷ÿ–¬—°‘Ò∞…£∫";
+								cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.ÂΩïÂÖ•‰∏ª‰øÆÂ≠¶ÁîüÊàêÁª©"<<"2.ÂΩïÂÖ•ËæÖ‰øÆÂ≠¶ÁîüÊàêÁª©"<<endl;
+						        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.ÁªüËÆ°‰ºòÁßÄÂ≠¶Áîü"<<"4.ÁªüËÆ°‰∏ª‰øÆË°•ËÄÉÂ≠¶Áîü"<<endl;
+						        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.ÁªüËÆ°ËæÖ‰øÆË°•ËÄÉÂ≠¶Áîü"<<"6.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+								cout<<endl<<setw(20)<<" "<<"ËæìÂÖ•ÈîôËØØÂï¶ÔºÅÈáçÊñ∞ÈÄâÊã©ÂêßÔºö";
 						        continue;
 							}
 							if(major == "1")
@@ -129,29 +129,29 @@ int main()
 							else if(major == "5") pFirstA->outputA_SecondFail();
 							else break;
 							system ("cls");
-							cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.¬º»Î÷˜–ﬁ—ß…˙≥…º®"<<"2.¬º»Î∏®–ﬁ—ß…˙≥…º®"<<endl;
-						    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.Õ≥º∆”≈–„—ß…˙"<<"4.Õ≥º∆÷˜–ﬁ≤πøº—ß…˙"<<endl;
-						    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.Õ≥º∆∏®–ﬁ≤πøº—ß…˙"<<"6.∑µªÿ…œ“ª≤„"<<endl;
-							cout<<endl<<setw(25)<<" "<<"«ÎºÃ–¯—°‘Ò£∫";
+							cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.ÂΩïÂÖ•‰∏ª‰øÆÂ≠¶ÁîüÊàêÁª©"<<"2.ÂΩïÂÖ•ËæÖ‰øÆÂ≠¶ÁîüÊàêÁª©"<<endl;
+						    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.ÁªüËÆ°‰ºòÁßÄÂ≠¶Áîü"<<"4.ÁªüËÆ°‰∏ª‰øÆË°•ËÄÉÂ≠¶Áîü"<<endl;
+						    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.ÁªüËÆ°ËæÖ‰øÆË°•ËÄÉÂ≠¶Áîü"<<"6.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+							cout<<endl<<setw(25)<<" "<<"ËØ∑ÁªßÁª≠ÈÄâÊã©Ôºö";
 						}
 					}
 					else if(major == "2")
 					{
 						system ("cls");
-						cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.¬º»Î÷˜–ﬁ—ß…˙≥…º®"<<"2.¬º»Î∏®–ﬁ—ß…˙≥…º®"<<endl;
-						cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.Õ≥º∆”≈–„—ß…˙"<<"4.Õ≥º∆÷˜–ﬁ≤πøº—ß…˙"<<endl;
-						cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.Õ≥º∆∏®–ﬁ≤πøº—ß…˙"<<"6.∑µªÿ…œ“ª≤„"<<endl;
-						cout<<endl<<setw(25)<<" "<<"«Î—°‘Ò£∫";
+						cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.ÂΩïÂÖ•‰∏ª‰øÆÂ≠¶ÁîüÊàêÁª©"<<"2.ÂΩïÂÖ•ËæÖ‰øÆÂ≠¶ÁîüÊàêÁª©"<<endl;
+						cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.ÁªüËÆ°‰ºòÁßÄÂ≠¶Áîü"<<"4.ÁªüËÆ°‰∏ª‰øÆË°•ËÄÉÂ≠¶Áîü"<<endl;
+						cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.ÁªüËÆ°ËæÖ‰øÆË°•ËÄÉÂ≠¶Áîü"<<"6.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+						cout<<endl<<setw(25)<<" "<<"ËØ∑ÈÄâÊã©Ôºö";
 						while(cin>>major)
 						{
-							// ‰»Î“Ï≥£¥¶¿Ì
+							//ËæìÂÖ•ÂºÇÂ∏∏Â§ÑÁêÜ
 							if(major!="1"&&major!="2"&&major!="3"&&major!="4"&&major!="5"&&major!="6")
 							{
 								system ("cls");
-								cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.¬º»Î÷˜–ﬁ—ß…˙≥…º®"<<"2.¬º»Î∏®–ﬁ—ß…˙≥…º®"<<endl;
-						        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.Õ≥º∆”≈–„—ß…˙"<<"4.Õ≥º∆÷˜–ﬁ≤πøº—ß…˙"<<endl;
-						        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.Õ≥º∆∏®–ﬁ≤πøº—ß…˙"<<"6.∑µªÿ…œ“ª≤„"<<endl;
-								cout<<endl<<setw(20)<<" "<<" ‰»Î¥ÌŒÛ¿≤£°÷ÿ–¬—°‘Ò∞…£∫";
+								cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.ÂΩïÂÖ•‰∏ª‰øÆÂ≠¶ÁîüÊàêÁª©"<<"2.ÂΩïÂÖ•ËæÖ‰øÆÂ≠¶ÁîüÊàêÁª©"<<endl;
+						        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.ÁªüËÆ°‰ºòÁßÄÂ≠¶Áîü"<<"4.ÁªüËÆ°‰∏ª‰øÆË°•ËÄÉÂ≠¶Áîü"<<endl;
+						        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.ÁªüËÆ°ËæÖ‰øÆË°•ËÄÉÂ≠¶Áîü"<<"6.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+								cout<<endl<<setw(20)<<" "<<"ËæìÂÖ•ÈîôËØØÂï¶ÔºÅÈáçÊñ∞ÈÄâÊã©ÂêßÔºö";
 						        continue;
 							}
 							if(major == "1")
@@ -164,29 +164,29 @@ int main()
 							else if(major == "5") pFirstB->outputB_SecondFail();
 							else break;
 							system ("cls");
-							cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.¬º»Î÷˜–ﬁ—ß…˙≥…º®"<<"2.¬º»Î∏®–ﬁ—ß…˙≥…º®"<<endl;
-						    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.Õ≥º∆”≈–„—ß…˙"<<"4.Õ≥º∆÷˜–ﬁ≤πøº—ß…˙"<<endl;
-						    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.Õ≥º∆∏®–ﬁ≤πøº—ß…˙"<<"6.∑µªÿ…œ“ª≤„"<<endl;
-							cout<<endl<<setw(25)<<" "<<"«ÎºÃ–¯—°‘Ò£∫";
+							cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.ÂΩïÂÖ•‰∏ª‰øÆÂ≠¶ÁîüÊàêÁª©"<<"2.ÂΩïÂÖ•ËæÖ‰øÆÂ≠¶ÁîüÊàêÁª©"<<endl;
+						    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.ÁªüËÆ°‰ºòÁßÄÂ≠¶Áîü"<<"4.ÁªüËÆ°‰∏ª‰øÆË°•ËÄÉÂ≠¶Áîü"<<endl;
+						    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.ÁªüËÆ°ËæÖ‰øÆË°•ËÄÉÂ≠¶Áîü"<<"6.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+							cout<<endl<<setw(25)<<" "<<"ËØ∑ÁªßÁª≠ÈÄâÊã©Ôºö";
 						}
 					}		
 					else if(major == "3")
 					{
 						system ("cls");
-						cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.¬º»Î÷˜–ﬁ—ß…˙≥…º®"<<"2.¬º»Î∏®–ﬁ—ß…˙≥…º®"<<endl;
-						cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.Õ≥º∆”≈–„—ß…˙"<<"4.Õ≥º∆÷˜–ﬁ≤πøº—ß…˙"<<endl;
-						cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.Õ≥º∆∏®–ﬁ≤πøº—ß…˙"<<"6.∑µªÿ…œ“ª≤„"<<endl;
-						cout<<endl<<setw(25)<<" "<<"«Î—°‘Ò£∫";
+						cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.ÂΩïÂÖ•‰∏ª‰øÆÂ≠¶ÁîüÊàêÁª©"<<"2.ÂΩïÂÖ•ËæÖ‰øÆÂ≠¶ÁîüÊàêÁª©"<<endl;
+						cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.ÁªüËÆ°‰ºòÁßÄÂ≠¶Áîü"<<"4.ÁªüËÆ°‰∏ª‰øÆË°•ËÄÉÂ≠¶Áîü"<<endl;
+						cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.ÁªüËÆ°ËæÖ‰øÆË°•ËÄÉÂ≠¶Áîü"<<"6.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+						cout<<endl<<setw(25)<<" "<<"ËØ∑ÈÄâÊã©Ôºö";
 						while(cin>>major)
 						{
-							// ‰»Î“Ï≥£¥¶¿Ì
+							//ËæìÂÖ•ÂºÇÂ∏∏Â§ÑÁêÜ
 							if(major!="1"&&major!="2"&&major!="3"&&major!="4"&&major!="5"&&major!="6")
 							{
 								system ("cls");
-								cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.¬º»Î÷˜–ﬁ—ß…˙≥…º®"<<"2.¬º»Î∏®–ﬁ—ß…˙≥…º®"<<endl;
-						        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.Õ≥º∆”≈–„—ß…˙"<<"4.Õ≥º∆÷˜–ﬁ≤πøº—ß…˙"<<endl;
-						        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.Õ≥º∆∏®–ﬁ≤πøº—ß…˙"<<"6.∑µªÿ…œ“ª≤„"<<endl;
-								cout<<endl<<setw(20)<<" "<<" ‰»Î¥ÌŒÛ¿≤£°÷ÿ–¬—°‘Ò∞…£∫";
+								cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.ÂΩïÂÖ•‰∏ª‰øÆÂ≠¶ÁîüÊàêÁª©"<<"2.ÂΩïÂÖ•ËæÖ‰øÆÂ≠¶ÁîüÊàêÁª©"<<endl;
+						        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.ÁªüËÆ°‰ºòÁßÄÂ≠¶Áîü"<<"4.ÁªüËÆ°‰∏ª‰øÆË°•ËÄÉÂ≠¶Áîü"<<endl;
+						        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.ÁªüËÆ°ËæÖ‰øÆË°•ËÄÉÂ≠¶Áîü"<<"6.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+								cout<<endl<<setw(20)<<" "<<"ËæìÂÖ•ÈîôËØØÂï¶ÔºÅÈáçÊñ∞ÈÄâÊã©ÂêßÔºö";
 						        continue;
 							}
 							if(major == "1") pFirstC->inputC_MajorScore();
@@ -196,35 +196,35 @@ int main()
 							else if(major == "5") pFirstC->outputC_SecondFail();
 							else break;
 							system ("cls");
-							cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.¬º»Î÷˜–ﬁ—ß…˙≥…º®"<<"2.¬º»Î∏®–ﬁ—ß…˙≥…º®"<<endl;
-						    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.Õ≥º∆”≈–„—ß…˙"<<"4.Õ≥º∆÷˜–ﬁ≤πøº—ß…˙"<<endl;
-						    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.Õ≥º∆∏®–ﬁ≤πøº—ß…˙"<<"6.∑µªÿ…œ“ª≤„"<<endl;
-							cout<<endl<<setw(25)<<" "<<"«ÎºÃ–¯—°‘Ò£∫";
+							cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.ÂΩïÂÖ•‰∏ª‰øÆÂ≠¶ÁîüÊàêÁª©"<<"2.ÂΩïÂÖ•ËæÖ‰øÆÂ≠¶ÁîüÊàêÁª©"<<endl;
+						    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.ÁªüËÆ°‰ºòÁßÄÂ≠¶Áîü"<<"4.ÁªüËÆ°‰∏ª‰øÆË°•ËÄÉÂ≠¶Áîü"<<endl;
+						    cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"5.ÁªüËÆ°ËæÖ‰øÆË°•ËÄÉÂ≠¶Áîü"<<"6.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+							cout<<endl<<setw(25)<<" "<<"ËØ∑ÁªßÁª≠ÈÄâÊã©Ôºö";
 						}
 					}
 					else break;
 					system ("cls");
-					cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.AœµΩÃŒÒ‘±"<<"2.BœµΩÃŒÒ‘±"<<endl;
-	                cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.CœµΩÃŒÒ‘±"<<"4.∑µªÿ…œ“ª≤„"<<endl;
-					cout<<endl<<setw(25)<<" "<<"«ÎºÃ–¯—°‘Ò£∫";
+					cout<<endl<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.AÁ≥ªÊïôÂä°Âëò"<<"2.BÁ≥ªÊïôÂä°Âëò"<<endl;
+	                cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.CÁ≥ªÊïôÂä°Âëò"<<"4.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+					cout<<endl<<setw(25)<<" "<<"ËØ∑ÁªßÁª≠ÈÄâÊã©Ôºö";
 				}
 			}
 			else if(user == "3")
 			{
 				system ("cls");
-				cout<<endl<<endl<<setw(12)<<" "<<left<<setw(30)<<"1.…Ë÷√÷˜–ﬁ—ßŒª–Ë–ﬁøŒ≥Ã ˝"<<"2.…Ë÷√∏®–ﬁ—ßŒª–Ë–ﬁøŒ≥Ã ˝"<<endl;
-				cout<<endl<<setw(12)<<" "<<left<<setw(30)<<"3.Õ≥º∆œ‡πÿ—ßŒª–≈œ¢"<<"4.∑µªÿ…œ“ª≤„"<<endl;
-				cout<<endl<<setw(25)<<" "<<"«Î—°‘Ò£∫";
+				cout<<endl<<endl<<setw(12)<<" "<<left<<setw(30)<<"1.ËÆæÁΩÆ‰∏ª‰øÆÂ≠¶‰ΩçÈúÄ‰øÆËØæÁ®ãÊï∞"<<"2.ËÆæÁΩÆËæÖ‰øÆÂ≠¶‰ΩçÈúÄ‰øÆËØæÁ®ãÊï∞"<<endl;
+				cout<<endl<<setw(12)<<" "<<left<<setw(30)<<"3.ÁªüËÆ°Áõ∏ÂÖ≥Â≠¶‰Ωç‰ø°ÊÅØ"<<"4.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+				cout<<endl<<setw(25)<<" "<<"ËØ∑ÈÄâÊã©Ôºö";
 				string choice;
 				while(cin>>choice)
 				{
-					// ‰»Î“Ï≥£¥¶¿Ì
+					//ËæìÂÖ•ÂºÇÂ∏∏Â§ÑÁêÜ
 					if(choice != "1" && choice != "2" && choice != "3" && choice != "4")
 					{
 						system ("cls");
-						cout<<endl<<endl<<setw(12)<<" "<<left<<setw(30)<<"1.…Ë÷√÷˜–ﬁ—ßŒª–Ë–ﬁøŒ≥Ã ˝"<<"2.…Ë÷√∏®–ﬁ—ßŒª–Ë–ﬁøŒ≥Ã ˝"<<endl;
-				        cout<<endl<<setw(12)<<" "<<left<<setw(30)<<"3.Õ≥º∆œ‡πÿ—ßŒª–≈œ¢"<<"4.∑µªÿ…œ“ª≤„"<<endl;
-						cout<<endl<<setw(20)<<" "<<" ‰»Î¥ÌŒÛ¿≤£°÷ÿ–¬—°‘Ò∞…£∫";
+						cout<<endl<<endl<<setw(12)<<" "<<left<<setw(30)<<"1.ËÆæÁΩÆ‰∏ª‰øÆÂ≠¶‰ΩçÈúÄ‰øÆËØæÁ®ãÊï∞"<<"2.ËÆæÁΩÆËæÖ‰øÆÂ≠¶‰ΩçÈúÄ‰øÆËØæÁ®ãÊï∞"<<endl;
+				        cout<<endl<<setw(12)<<" "<<left<<setw(30)<<"3.ÁªüËÆ°Áõ∏ÂÖ≥Â≠¶‰Ωç‰ø°ÊÅØ"<<"4.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+						cout<<endl<<setw(20)<<" "<<"ËæìÂÖ•ÈîôËØØÂï¶ÔºÅÈáçÊñ∞ÈÄâÊã©ÂêßÔºö";
 						continue;
 					}
 					if(choice == "1") pStudentMIS->degreeStanderOfFirst();
@@ -232,21 +232,21 @@ int main()
 					else if(choice == "3") pStudentMIS->degree();
 					else break;
 					system ("cls");
-					cout<<endl<<endl<<setw(12)<<" "<<left<<setw(30)<<"1.…Ë÷√÷˜–ﬁ—ßŒª–Ë–ﬁøŒ≥Ã ˝"<<"2.…Ë÷√∏®–ﬁ—ßŒª–Ë–ﬁøŒ≥Ã ˝"<<endl;
-				    cout<<endl<<setw(12)<<" "<<left<<setw(30)<<"3.Õ≥º∆œ‡πÿ—ßŒª–≈œ¢"<<"4.∑µªÿ…œ“ª≤„"<<endl;
-					cout<<endl<<setw(25)<<" "<<"«ÎºÃ–¯—°‘Ò£∫";
+					cout<<endl<<endl<<setw(12)<<" "<<left<<setw(30)<<"1.ËÆæÁΩÆ‰∏ª‰øÆÂ≠¶‰ΩçÈúÄ‰øÆËØæÁ®ãÊï∞"<<"2.ËÆæÁΩÆËæÖ‰øÆÂ≠¶‰ΩçÈúÄ‰øÆËØæÁ®ãÊï∞"<<endl;
+				    cout<<endl<<setw(12)<<" "<<left<<setw(30)<<"3.ÁªüËÆ°Áõ∏ÂÖ≥Â≠¶‰Ωç‰ø°ÊÅØ"<<"4.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+					cout<<endl<<setw(25)<<" "<<"ËØ∑ÁªßÁª≠ÈÄâÊã©Ôºö";
 				}
 			}
 			else break;
 			system ("cls");
-			cout<<endl<<endl<<setw(22)<<" "<<left<<setw(30)<<"”√ªßµ«¬º’À∫≈—°‘Ò÷–..."<<endl;
-	        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.’–…˙∞Ïπ§◊˜»À‘±"<<"2.œµΩÃŒÒ‘±"<<endl;
-	        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.—ßŒª∞Ïπ§◊˜»À‘±"<<"4.∑µªÿ…œ“ª≤„"<<endl;
-			cout<<endl<<setw(20)<<" "<<"«ÎºÃ–¯—°‘Ò£∫";
+			cout<<endl<<endl<<setw(22)<<" "<<left<<setw(30)<<"Áî®Êà∑ÁôªÂΩïË¥¶Âè∑ÈÄâÊã©‰∏≠..."<<endl;
+	        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"1.ÊãõÁîüÂäûÂ∑•‰Ωú‰∫∫Âëò"<<"2.Á≥ªÊïôÂä°Âëò"<<endl;
+	        cout<<endl<<setw(15)<<" "<<left<<setw(25)<<"3.Â≠¶‰ΩçÂäûÂ∑•‰Ωú‰∫∫Âëò"<<"4.ËøîÂõû‰∏ä‰∏ÄÂ±Ç"<<endl;
+			cout<<endl<<setw(20)<<" "<<"ËØ∑ÁªßÁª≠ÈÄâÊã©Ôºö";
 		}
 		system ("cls");
-	    cout<<endl<<endl<<setw(18)<<" "<<left<<setw(20)<<"1.”√ªß—°‘Ò"<<setw(30)<<"2.ÕÀ≥ˆœµÕ≥"<<endl;
-	    cout<<endl<<setw(25)<<" "<<"«ÎºÃ–¯—°‘Ò£∫";
+	    cout<<endl<<endl<<setw(18)<<" "<<left<<setw(20)<<"1.Áî®Êà∑ÈÄâÊã©"<<setw(30)<<"2.ÈÄÄÂá∫Á≥ªÁªü"<<endl;
+	    cout<<endl<<setw(25)<<" "<<"ËØ∑ÁªßÁª≠ÈÄâÊã©Ôºö";
 	}
 	return 0;
 }
